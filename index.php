@@ -29,8 +29,9 @@
     ?>
 
     <br>
-    
     <a href="formulario.php">Ir para o formulário</a>
+    <br>
+    <a href="calculadora.php">Ir para a calculadora</a>
 
 
 
