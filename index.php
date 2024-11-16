@@ -3,38 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>aula 08</title>
+    <title>Aula 08</title>
 </head>
 <body>
-    <h1>Introdução a programação backend</h1>
+    <h1>Introdução à programação backend</h1>
+    <br/>
 
     <?php
-
         echo 'Olá, Ivan';
-        echo '<br>';
+        echo '<br/>';
 
-        //Cria uma variavel chamada ano_nascimento
-        $ano_nascimento = 1983;
+        //Cria uma variável chamada ano_nascimento
+        $ano_nascimento = 1983;    
 
-        //Cria uma variavel chamada ano_atual
+        //Cria uma variável  chamada ano_atual, que armazena o ano em que estamos
         $ano_atual = 2024;
 
-        //Criamos uma variavel para armazenar a idade da pessoa,
-        //Realizamos um calculo de subtração entre o ano atual eo ano de nascimento
+        //Criamos uma variável para armazenar a idade da pessoa, 
+        //Realizamos um cálculo de subtração entre o ano atual e o ano de nascimento
         $idade = $ano_atual - $ano_nascimento;
 
-        //Exibimos a idade da pessoa
-        //No php, o caracter "." concatena (junta) strings.
-        echo 'Voce possui ' . $idade . ' anos.';
-    ?>
+        //Exibimos a idade da pessoa.
+        //No PHP, o caracter ponto "." concatena (junta) strings.
+        echo 'Você possui '. $idade . ' anos.';
+    ?>     
 
-    <br>
+    <br/>
     <a href="formulario.php">Ir para o formulário</a>
-    <br>
-    <a href="calculadora.php">Ir para a calculadora</a>
-
-
-
-
 </body>
 </html>
